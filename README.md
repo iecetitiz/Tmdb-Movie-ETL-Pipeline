@@ -27,18 +27,10 @@ TMDB API → Extract → Transform → Load → PostgreSQL
 - Exploded genre lists into relational tables
 - Performed sentiment analysis on movie overviews
 
+## 📊 Results
+- Identified top-performing movie genres using weighted ratings
+- Observed increasing popularity trends for certain genres over time
 
-## 📁 Project Structure
-tmdb_pipeline/
-│
-├── dags/
-│   └── tmdb_dag.py
-├── scripts/
-│   ├── extract.py
-│   ├── transform.py
-│   └── load.py
-├── requirements.txt
-└── README.md
 
 
 
