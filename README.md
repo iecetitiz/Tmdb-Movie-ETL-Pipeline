@@ -18,6 +18,19 @@ and loads the processed data into a PostgreSQL database for analysis.
 2. Transform data (cleaning, feature engineering, normalization)
 3. Load transformed data into PostgreSQL
 
+TMDB API → Extract → Transform → Load → PostgreSQL
+
+## 📁 Project Structure
+tmdb_pipeline/
+│
+├── dags/
+│   └── tmdb_dag.py
+├── scripts/
+│   ├── extract.py
+│   ├── transform.py
+│   └── load.py
+├── requirements.txt
+└── README.md
 
 
 
