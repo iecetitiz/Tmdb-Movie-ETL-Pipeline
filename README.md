@@ -1,6 +1,3 @@
-# Tmdb-Movie-ETL-Pipeline
-End-to-end ETL pipeline that extracts movie data from TMDB API, applies data transformations, and loads it into PostgreSQL for analytics.
-
 # TMDB Movie Data Pipeline
 
 ## 📌 Project Overview
@@ -15,4 +12,12 @@ and loads the processed data into a PostgreSQL database for analysis.
 - PostgreSQL
 - Apache Airflow
 - Docker
+
+## 🔄 Pipeline Architecture
+1. Extract movie data from TMDB API
+2. Transform data (cleaning, feature engineering, normalization)
+3. Load transformed data into PostgreSQL
+
+
+
 
