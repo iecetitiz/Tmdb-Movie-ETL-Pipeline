@@ -20,6 +20,14 @@ and loads the processed data into a PostgreSQL database for analysis.
 
 TMDB API → Extract → Transform → Load → PostgreSQL
 
+## 🔧 Data Transformations
+- Converted release dates to datetime format
+- Normalized popularity scores
+- Applied IMDb-style weighted rating
+- Exploded genre lists into relational tables
+- Performed sentiment analysis on movie overviews
+
+
 ## 📁 Project Structure
 tmdb_pipeline/
 │
