@@ -15,21 +15,10 @@ and loads the processed data into a PostgreSQL database for analysis.
 
 ## 🔄 Pipeline Architecture
 1. Extract movie data from TMDB API
-2. Transform data (cleaning, feature engineering, normalization)
+2. Transform data (cleaning)
 3. Load transformed data into PostgreSQL
 
 TMDB API → Extract → Transform → Load → PostgreSQL
-
-## 🔧 Data Transformations
-- Converted release dates to datetime format
-- Normalized popularity scores
-- Applied IMDb-style weighted rating
-- Exploded genre lists into relational tables
-- Performed sentiment analysis on movie overviews
-
-## 📊 Results
-- Identified top-performing movie genres using weighted ratings
-- Observed increasing popularity trends for certain genres over time
 
 
 
