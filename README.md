@@ -1,6 +1,6 @@
 # TMDB Movie Data Pipeline
 
-## 📌 Project Overview
+## 🔍 Project Overview
 This project is an end-to-end data pipeline built using the TMDB API.
 The pipeline extracts movie metadata, applies data transformations and feature engineering,
 and loads the processed data into a PostgreSQL database for analysis.
